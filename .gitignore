@@ -1,25 +1,142 @@
-# CakePHP 3
+# Lista de estudiantes con su respectivo código 
 
-/vendor/*
-/config/app.php
 
-/tmp/cache/models/*
-!/tmp/cache/models/empty
-/tmp/cache/persistent/*
-!/tmp/cache/persistent/empty
-/tmp/cache/views/*
-!/tmp/cache/views/empty
-/tmp/sessions/*
-!/tmp/sessions/empty
-/tmp/tests/*
-!/tmp/tests/empty
+estudiantes
 
-/logs/*
-!/logs/empty
+   
 
-# CakePHP 2
+   
 
-/app/tmp/*
-/app/Config/core.php
-/app/Config/database.php
-/vendors/*
+   
+
+}
+
+
+
+
+estudiantes = {
+    12345: 
+    67890: 
+    24680: 
+}
+
+
+hora_actual = datetime.datetime.now().time()
+
+
+hora
+
+print
+
+
+
+for codigo, nombre in estudiantes.items():
+    
+for codigo, nombre in estudiantes.items():
+   
+
+for codigo, nombre in estudiantes.items():
+
+for
+
+   
+
+
+
+estudiantes = {
+    
+}
+
+
+hora_actual = datetime.datetime.now().time()
+
+
+
+
+
+
+estudiantes = {
+    12345: 
+    67890: 
+    24680: 
+}
+
+
+hora_actual = datetime.datetime.now().time()
+
+
+
+
+for codigo, nombre in estudiantes.items():
+    
+    asistencia
+import datetime
+
+# Lista de estudiantes con su respectivo código ID
+estudiantes = {
+    12345: "Juan",
+    67890: "Maria",
+    24680: "Pedro"
+}
+
+# Obtener la hora actual
+hora_actual = datetime.datetime.now().time()
+
+# Imprimir la hora actual
+print("Hora actual:", hora_actual)
+
+# Tomar la asistencia de cada estudiante
+for codigo, nombre in estudiantes.items():
+    # Solicitar la asistencia del estudiante
+    asistencia = input(f"{nombre} (ID {codigo}): ¿asistió a clase? (S/N)")
+
+    
+
+   
+
+
+# Verificar si el estudiante llegó temprano
+    
+   
+if hora_actual < datetime.time(8, 15):
+        
+       
+if asistencia == "S":
+            
+           
+print(f"{nombre} llegó temprano y asistió a clase.")
+        
+       
+else:
+            
+           
+print(f"{nombre} llegó temprano y no asistió a clase.")
+    
+   
+# Verificar si el estudiante llegó tarde
+    
+   
+elif hora_actual < datetime.time(8, 30):
+        
+       
+if asistencia == "S":
+            
+           
+print(f"{nombre} llegó tarde y asistió a clase.")
+        
+       
+else:
+            
+           
+print(f"{nombre} llegó tarde y no asistió a clase.")
+    
+   
+# El estudiante no llegó a tiempo
+    
+   
+else:
+        
+       
+print(f"{nombre} no llegó a tiempo a clase.")
+
+``
